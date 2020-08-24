@@ -6,9 +6,12 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import org.springframework.stereotype.Component;
+
 import com.vbaixinho.springboot.model.Course;
 import com.vbaixinho.springboot.model.Student;
 
+@Component
 public class StudentService {
 
 
